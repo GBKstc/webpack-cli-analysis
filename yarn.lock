@@ -2205,13 +2205,12 @@
   dependencies:
     "@types/node" "*"
 
-"@types/inquirer@*":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@types/inquirer/-/inquirer-8.2.0.tgz#b9566d048f5ff65159f2ed97aff45fe0f00b35ec"
-  integrity sha512-BNoMetRf3gmkpAlV5we+kxyZTle7YibdOntIZbU5pyIfMdcwy784KfeZDAcuyMznkh5OLa17RVXZOGA5LTlkgQ==
+"@types/inquirer@*", "@types/inquirer@^8":
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/@types/inquirer/-/inquirer-8.2.3.tgz#985515d04879a0d0c1f5f49ec375767410ba9dab"
+  integrity sha512-ZlBqD+8WIVNy3KIVkl+Qne6bGLW2erwN0GJXY9Ri/9EMbyupee3xw3H0Mmv5kJoLyNpfd/oHlwKxO0DUDH7yWA==
   dependencies:
     "@types/through" "*"
-    rxjs "^7.2.0"
 
 "@types/interpret@*":
   version "1.1.1"
@@ -2436,13 +2435,13 @@
     rxjs "^6.4.0"
 
 "@types/yeoman-generator@*", "@types/yeoman-generator@^5.2.8":
-  version "5.2.9"
-  resolved "https://registry.yarnpkg.com/@types/yeoman-generator/-/yeoman-generator-5.2.9.tgz#70be1011b1ed6ddb0982a17b7de80825052822be"
-  integrity sha512-nLcJvIoq83s/FBjTgSjtwPEUk6U8nVzVZ4fBOh9Untdgu00MjjQOFORob8kzlTSJIh0MC9mPnNuV2ErD/NlabQ==
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@types/yeoman-generator/-/yeoman-generator-5.2.11.tgz#fa6bdab74b44d27f07e309c8ae387b62edbc6bc1"
+  integrity sha512-Eu56V69QPODdnHhdHil2xzw8SvR6cJdgkQBmGkyYDNz6dTErr3wCCUv+Uvw5jPATZjyB+b2CNyZbidI79KBcdw==
   dependencies:
     "@types/debug" "*"
     "@types/ejs" "*"
-    "@types/inquirer" "*"
+    "@types/inquirer" "^8"
     "@types/mem-fs-editor" "*"
     "@types/yeoman-environment" "*"
     rxjs "^6.4.0"
